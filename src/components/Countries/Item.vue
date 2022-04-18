@@ -24,6 +24,7 @@
 
       <q-card-section
         class="q-pt-none scroll full-height flex items-center justify-center"
+        style="max-height: 60vh"
       >
         <div class="itemtrst full-width">
           <div class="row">
@@ -74,6 +75,7 @@
                   </ul>
                 </li>
               </ul>
+              <q-separator class="mobile-only" />
             </div>
             <div class="col-12 col-md-4 text-white">
               <ul>
@@ -96,6 +98,7 @@
 
                 <li>Bandeira: {{ countrie.flag }}</li>
               </ul>
+              <q-separator class="mobile-only" />
             </div>
             <div class="col-12 col-md-4 text-white">
               <ul>
@@ -117,6 +120,7 @@
                   </ul>
                 </li>
               </ul>
+              <q-separator class="mobile-only" />
             </div>
           </div>
         </div>
