@@ -3,6 +3,7 @@
     :src="countrie.flags['png']"
     style="height: 140px"
     @click="handleOpenDialog"
+    class="fades_in"
   >
     <div class="absolute-bottom text-subtitle1 text-center q-pa-none">
       {{ countrie.name["common"] }}
@@ -159,5 +160,17 @@ export default {
 <style scoped>
 .country__modal-image-img {
   width: 200px;
+}
+.fades_in {
+  cursor: pointer;
+  opacity: 0.9;
+}
+.fades_in:hover {
+  opacity: 1;
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  -webkit-filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, 0.5));
+  filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, 0.5));
 }
 </style>
