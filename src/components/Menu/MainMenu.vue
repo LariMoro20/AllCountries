@@ -33,7 +33,7 @@
         >
       </li>
       <li class="horizontal__menu-item">
-        <router-link class="horizontal__menu-item-link" to="/about"
+        <router-link class="horizontal__menu-item-link" to="/countries/Oceania"
           >Oceania</router-link
         >
       </li>

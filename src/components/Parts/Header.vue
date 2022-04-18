@@ -24,16 +24,14 @@ import FormSearch from "components/Search/FormSearch.vue";
 
 export default {
   components: { MainMenu, FormSearch },
-  name: "PokemonPage",
-  data: () => ({
-    countryName: "",
-  }),
+  name: "Header",
+
   methods: {
     searchCountry() {
       this.$q.notify({
         type: "positive",
         position: "top",
-        message: `Pokemon encontrado.`,
+        message: `País encontrado.`,
       });
     },
   },

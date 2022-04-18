@@ -2,7 +2,7 @@
   <q-layout view="lHh Lpr lFf" class="bg-black">
     <Header />
     <q-page-container class="countries__pages">
-      <router-view class="countrie__page" />
+      <router-view class="countrie__page" :key="$route.fullPath" />
     </q-page-container>
     <Footer />
   </q-layout>

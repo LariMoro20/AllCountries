@@ -23,10 +23,22 @@
   </div>
 </template>
 <script>
-import { defineComponent } from "vue";
+import { defineComponent, ref } from "vue";
 
 export default defineComponent({
   name: "FormSearch",
+  setup() {
+    const countryName = ref("");
+    const searchCountry = async () => {
+      // await api.get("region/" + route.params.id).then((res) => {
+      //  countries.value = res.data;
+      // });
+    };
+    return {
+      countryName,
+      searchCountry,
+    };
+  },
 });
 </script>
 <style scoped></style>
