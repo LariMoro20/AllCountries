@@ -6,53 +6,15 @@
           <div class="container">
             <div class="row">
               <div class="col-12 home__title">
-                Bem vindo(a) ao AllCountries!
+                Seja bem vindo(a) ao AllCountries!
               </div>
-              <div class="col-md-12 col-12">
+              <div class="col-md-8 col-12">
                 <p class="text-white">
-                  Esta aplicação reune dados sobre todos os paises do mundo,
-                  como capital, idiomas, moeda, população e mais. <br />
-
-                  Para isto, é usada a
-                  <a href="https://restcountries.com/" target="_blank"
-                    >API RestCountries</a
-                  >
-                  como fonte de todas as informações aqui exibidas!<br /><br />
-                </p>
-              </div>
-              <div class="col-md-12 col-12 text-white">
-                <div class="text-h6">Créditos das imagens:</div>
-
-                <ul class="text-white q-ma-none">
-                  <li>
-                    <a
-                      href="https://br.freepik.com/fotos-vetores-gratis/tecnologia"
-                      >Tecnologia vetor criado por starline - br.freepik.com</a
-                    >
-                  </li>
-                  <li>
-                    <a href="https://br.freepik.com/fotos-vetores-gratis/escola"
-                      >Escola foto criado por wirestock - br.freepik.com</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="https://www.flaticon.com/free-icons/globe"
-                      title="globe icons"
-                      >Globe icons created by Freepik - Flaticon</a
-                    >
-                  </li>
-                </ul>
-              </div>
-              <div class="col-md-12 col-12 text-center q-pt-xl">
-                <p class="text-white">
-                  Desenvolvida com &#10084; por
-                  <a
-                    href="https://larissa-santos.vercel.app/"
-                    class="text-white"
-                    target="_blank"
-                    >Larissa Santos</a
-                  >, Desenvolvedora Web <br /><br />
+                  Aqui você terá acesso a dados sobre todas as nações do mundo,
+                  tais como bandeira, idiomas, moedas, latitude, população e
+                  mais.<br />
+                  Utilize o menu principal para navegar nos paises, agrupados
+                  por continentes.
                 </p>
               </div>
             </div>
