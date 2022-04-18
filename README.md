@@ -5,8 +5,8 @@ Os dados aqui exibidos, são obtidos através da API RestCountries a qual é res
 
 Para visualizar o layout: https://all-countries-larimoro20.vercel.app/
 
-![imagem](https://github.com/LariMoro20/AllCountries/blob/main/print1.png)
 ![imagem](https://github.com/LariMoro20/AllCountries/blob/main/print2.png)
+![imagem](https://github.com/LariMoro20/AllCountries/blob/main/print1.png)
 
 - Vue/Quasar Framework
 - Reatividade;
