@@ -10,7 +10,9 @@
         <div class="col-12 col-md-8 flex justify-center items-center column">
           <div class="row">
             <div class="col-12"><MainMenu /></div>
-            <div class="col-12 row flex justify-center"><FormSearch /></div>
+            <div class="col-12 row flex justify-center">
+              <!--<FormSearch />-->
+            </div>
           </div>
         </div>
       </div>
@@ -20,10 +22,13 @@
 
 <script>
 import MainMenu from "components/Menu/MainMenu.vue";
-import FormSearch from "components/Search/FormSearch.vue";
+//import FormSearch from "components/Search/FormSearch.vue";
 
 export default {
-  components: { MainMenu, FormSearch },
+  components: {
+    MainMenu,
+    //FormSearch
+  },
   name: "Header",
 
   methods: {
