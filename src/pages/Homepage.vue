@@ -3,12 +3,12 @@
     <div class="container">
       <div class="about row full-width q-pt-md">
         <div class="full-width q-pa-md">
-          <div class="container">
+          <div class="container flex justify-center">
             <div class="row">
-              <div class="col-12 home__title">
-                Seja bem vindo(a) ao AllCountries!
-              </div>
-              <div class="col-md-8 col-12">
+              <div class="col-md-12 col-12">
+                <div class="home__title">
+                  Seja bem vindo(a) ao AllCountries!
+                </div>
                 <p class="text-white">
                   Aqui você terá acesso a dados sobre todas as nações do mundo,
                   tais como bandeira, idiomas, moedas, latitude, população e
@@ -17,6 +17,9 @@
                   por continentes.
                 </p>
               </div>
+            </div>
+            <div class="col-4">
+              <img src="/images/map.jpg" class="full-width" />
             </div>
           </div>
         </div>
