@@ -25,12 +25,6 @@ export default defineComponent({
     ItemList,
   },
   setup() {
-    // watch(
-    //  () => route.params.id,
-    //  (val) => {
-    //   console.log("Watch props.selected function called with args:", val);
-    // }
-    //  );
     const countries = ref([]);
     const route = useRoute();
     onBeforeMount(() => {
@@ -39,7 +33,6 @@ export default defineComponent({
     onMounted(() => {
       getAPI();
     });
-
     const getAPI = async () => {
       await api.get("region/" + route.params.id).then((res) => {
         countries.value = res.data;
