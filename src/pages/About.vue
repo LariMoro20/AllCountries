@@ -5,19 +5,17 @@
         <div class="full-width q-pa-md">
           <div class="container">
             <div class="row">
-              <div class="col-12 about__title">
-                Bem vindo(a) ao AllCountries!
-              </div>
+              <div class="col-12 about__title">Sobre a aplicação</div>
               <div class="col-md-12 col-12">
                 <p class="text-white">
-                  Esta aplicação reune dados sobre todos os paises do mundo,
-                  como capital, idiomas, moeda, população e mais. <br />
-
-                  Para isto, é usada a
+                  Esta aplicação foi desenvolvida para estudo e composição de
+                  portifólio, podendo ser atualizada em qualquer momento. <br />
+                  Os dados aqui exibidos, são obtidos através da
                   <a href="https://restcountries.com/" target="_blank"
                     >API RestCountries</a
                   >
-                  como fonte de todas as informações aqui exibidas!<br /><br />
+                  a qual é responsavel pelo armazenamento e atualização dos
+                  mesmos<br /><br />
                 </p>
               </div>
               <div class="col-md-12 col-12 text-white">
@@ -40,6 +38,13 @@
                       href="https://www.flaticon.com/free-icons/globe"
                       title="globe icons"
                       >Globe icons created by Freepik - Flaticon</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="https://br.freepik.com/fotos-vetores-gratis/vintage"
+                      >Vintage vetor criado por pikisuperstar -
+                      br.freepik.com</a
                     >
                   </li>
                 </ul>
