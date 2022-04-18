@@ -1,7 +1,7 @@
 # AllCountries (all-countries)
 
 Esta aplicação foi desenvolvida para estudo e composição de portifólio, podendo ser atualizada em qualquer momento.
-Os dados aqui exibidos, são obtidos através da API RestCountries a qual é responsavel pelo armazenamento e atualização dos mesmos
+Os dados aqui exibidos, são obtidos através da API RestCountries (https://restcountries.com/) a qual é responsavel pelo armazenamento e atualização dos mesmos
 
 Para visualizar o layout: https://all-countries-larimoro20.vercel.app/
 
