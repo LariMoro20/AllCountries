@@ -29,4 +29,6 @@ npm start
 
 ```bash
 quasar build
+cd dist/spa
+quasar serve
 ```
