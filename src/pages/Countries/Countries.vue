@@ -5,6 +5,7 @@
         <div class="col-12 text-center q-pa-md">
           <div class="text-h4 text-white">
             {{ $route.params.id.replace("_", " ") }}
+            {{ countries.length > 0 ? "(" + countries.length + ")" : "" }}
           </div>
         </div>
         <ItemList v-if="countries" :countries="countries" />
