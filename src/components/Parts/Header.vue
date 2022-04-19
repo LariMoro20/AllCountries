@@ -1,8 +1,6 @@
 <template>
-  <div
-    class="header q-pt-sm bg-secondary fixed-top z-top text-center flex colunm items-center"
-  >
-    <div class="header-logo text-center full-width">
+  <div class="header q-py-md bg-secondary">
+    <div class="header-logo text-center">
       <div class="row">
         <div class="col-12 col-md-3">
           <router-link to="/"
@@ -50,10 +48,7 @@ export default {
 </script>
 
 <style>
-.header {
-  height: 150px;
-}
 .header-logo-img {
-  width: 130px;
+  width: 150px;
 }
 </style>
