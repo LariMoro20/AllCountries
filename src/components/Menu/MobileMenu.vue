@@ -3,39 +3,49 @@
     <q-menu fit>
       <q-list>
         <q-item clickable v-close-popup>
-          <router-link
-            class="horizontalmobile__menu-item-link full-width"
-            to="/"
-            >Inicial</router-link
+          <router-link class="horizontalmobile__menu-item-link" to="/"
+            >Inicio</router-link
           >
         </q-item>
 
         <q-item clickable v-close-popup>
-          <router-link
-            class="horizontalmobile__menu-item-link full-width"
-            to="/categories"
-            >Drinks</router-link
-          >
-        </q-item>
-        <q-item clickable v-close-popup>
-          <router-link
-            class="horizontalmobile__menu-item-link full-width"
-            to="/drinks/type/Non_Alcoholic/"
-            >Drinks não alcoólicos</router-link
-          >
-        </q-item>
-        <q-item clickable v-close-popup>
-          <router-link
-            class="horizontalmobile__menu-item-link full-width"
-            to="/drinks/RandomDrink"
-            >Drink Aleatório</router-link
-          >
-        </q-item>
-        <q-item clickable v-close-popup>
-          <router-link
-            class="horizontalmobile__menu-item-link full-width"
-            to="/about"
+          <router-link class="horizontalmobile__menu-item-link" to="/about"
             >Sobre</router-link
+          >
+        </q-item>
+        <q-item clickable v-close-popup>
+          <router-link
+            class="horizontalmobile__menu-item-link"
+            to="/countries/Africa"
+            >Países da Africa</router-link
+          >
+        </q-item>
+        <q-item clickable v-close-popup>
+          <router-link
+            class="horizontalmobile__menu-item-link"
+            to="/countries/Americas"
+            >Países das Americas</router-link
+          >
+        </q-item>
+        <q-item clickable v-close-popup>
+          <router-link
+            class="horizontalmobile__menu-item-link"
+            to="/countries/Asia"
+            >Países da Asia</router-link
+          >
+        </q-item>
+        <q-item clickable v-close-popup>
+          <router-link
+            class="horizontalmobile__menu-item-link"
+            to="/countries/Europe"
+            >Países da Europa</router-link
+          >
+        </q-item>
+        <q-item clickable v-close-popup>
+          <router-link
+            class="horizontalmobile__menu-item-link"
+            to="/countries/Oceania"
+            >Países da Oceania</router-link
           >
         </q-item>
       </q-list>

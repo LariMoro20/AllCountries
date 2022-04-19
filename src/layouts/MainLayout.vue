@@ -37,5 +37,6 @@ export default defineComponent({
 }
 .countrie__page {
   background-color: #100f34f2;
+  margin-top: 150px;
 }
 </style>

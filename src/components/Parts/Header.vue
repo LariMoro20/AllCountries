@@ -1,6 +1,8 @@
 <template>
-  <div class="header q-py-md bg-secondary">
-    <div class="header-logo text-center">
+  <div
+    class="header q-pt-sm bg-secondary fixed-top z-top text-center flex colunm items-center"
+  >
+    <div class="header-logo text-center full-width">
       <div class="row">
         <div class="col-12 col-md-3">
           <router-link to="/"
@@ -9,7 +11,8 @@
         </div>
         <div class="col-12 col-md-8 flex justify-center items-center column">
           <div class="row">
-            <div class="col-12"><MainMenu /></div>
+            <div class="col-12 desktop-only"><MainMenu /></div>
+            <div class="col-12 mobile-only"><MobileMenu /></div>
             <div class="col-12 row flex justify-center">
               <!--<FormSearch />-->
             </div>
@@ -22,11 +25,14 @@
 
 <script>
 import MainMenu from "components/Menu/MainMenu.vue";
+import MobileMenu from "components/Menu/MobileMenu.vue";
+
 //import FormSearch from "components/Search/FormSearch.vue";
 
 export default {
   components: {
     MainMenu,
+    MobileMenu,
     //FormSearch
   },
   name: "Header",
@@ -44,7 +50,10 @@ export default {
 </script>
 
 <style>
+.header {
+  height: 150px;
+}
 .header-logo-img {
-  width: 150px;
+  width: 130px;
 }
 </style>
