@@ -16,7 +16,12 @@
                   >
                   a qual é responsavel pelo armazenamento e atualização dos
                   mesmos<br /><br />
+                  Veja o repositório no
+                  <a href=" https://github.com/LariMoro20/AllCountries"
+                    >GitHub</a
+                  >
                 </p>
+                <p></p>
               </div>
               <div class="col-md-12 col-12 text-white">
                 <div class="text-h6">Créditos das imagens:</div>
