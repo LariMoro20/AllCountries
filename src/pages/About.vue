@@ -21,7 +21,6 @@
                     >GitHub</a
                   >
                 </p>
-                <p></p>
               </div>
               <div class="col-md-12 col-12 text-white">
                 <div class="text-h6">Créditos das imagens:</div>
