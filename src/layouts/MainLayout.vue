@@ -11,17 +11,14 @@
 <script>
 import Header from "components/Parts/Header.vue";
 import Footer from "components/Parts/Footer.vue";
-
 import { defineComponent, ref } from "vue";
 
 export default defineComponent({
   name: "MainLayout",
-
   components: {
     Header,
     Footer,
   },
-
   setup() {
     return {};
   },
